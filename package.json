@@ -1,0 +1,23 @@
+{
+  "name": "minimalistic-expressApp",
+  "version": "1.0.0",
+  "description": "A minimalistic application using express",
+  "main": "index.js",
+  "scripts": {
+    "start server": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
